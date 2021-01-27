@@ -450,3 +450,33 @@ nav{
     /* END ACTIVITIES */
 
 /* MAIN */
+
+/* FOOTER */
+
+footer{
+    margin-top: 7rem;
+    background-color: #F2F2F2;
+}
+
+.footer__list{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    padding: 4rem;
+}
+
+.footer__list__detail{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__list__detail a{
+    line-height: 40px;
+}
+
+.footer__list h2{
+    font-size: 2rem;
+}
+
+/* END FOOTER */
