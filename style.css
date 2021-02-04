@@ -281,10 +281,6 @@ nav{
     margin-left: 3rem;
 }
 
-.show-more{
-    margin-left: 3rem;
-}
-
 .accommodation-list--description{
     display: flex;
     flex-wrap: wrap;
@@ -319,8 +315,6 @@ nav{
     margin: 0.2rem 0 0.2rem 0;
 }
 
-
-
 .stars{
     font-size: small;
     color: #0065FC;
@@ -328,6 +322,10 @@ nav{
 
 .color-star{
     color: #F2F2F2;
+}
+
+.show-more{
+    margin-left: 3rem;
 }
 
 .accommodation-list .show-more a{
@@ -728,15 +726,13 @@ footer{
 
 @media (min-width:769px) and (max-width:1024px){
 
-.footer__list{
-    width: 100%;
-    margin-left: 0;
-}
+    .filter-button{
+        margin-bottom: 1rem;
+    }
 
-.filter-button{
-    margin-bottom: 1rem;
-}
+/* SECTION ACCOMMODATION */
 
+        /* ACCOMMODATION-LIST */
 
 #accommodation{
     flex-direction: column-reverse;
@@ -777,6 +773,10 @@ footer{
 
 }
 
+        /* END ACCOMMODATION-LIST */
+
+        /* END MOST-POPULAR */
+
 .show-more{
     margin-left: 4rem;
 }
@@ -798,6 +798,12 @@ footer{
 .most-popular h2{
     margin-left: 4rem;
 }
+
+        /* END MOST-POPULAR */
+
+    /* END SECTION ACCOMMODATION */
+
+     /* ACTIVITIES */
 
 #activities{
     width: 92%;
@@ -850,7 +856,17 @@ footer{
     height: 20rem;
 }
 
+     /* END ACTIVITIES */
 }
+
+    /* FOOTER */
+
+.footer__list{
+    width: 100%;
+    margin-left: 0;
+}
+
+    /* END FOOTER */
 
 @media (min-width:1025px) and (max-width:1439px){
 
@@ -979,11 +995,43 @@ footer{
 
 }
 
-@media screen and (min-width: 1701px){
+@media screen and (min-width: 1700px){
 
-body{
-    width: 1700px;
-    margin: auto;
+    /* ACCOMMODATION-LIST */
+
+.accommodation-list--description--detail img{
+    width: 38rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 2.5rem 2.5rem 0 0;
 }
+
+    /* END ACCOMMODATION-LIST */
+
+/* ACTIVITIES */
+
+.activities__list__detail img{
+    object-fit: cover;
+    width: 38rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+}
+
+.activities__list__detail__photo-xlarge{
+    height: 50rem;
+}
+
+.activities__list__detail__photo-large{
+    height: 25rem;
+}
+
+.activities__list__detail__photo-medium{
+    height: 20rem;
+}
+
+.activities__list__detail__photo-small{
+    height: 15rem;
+}
+
+    /* END ACTIVITIES */
 
 }
