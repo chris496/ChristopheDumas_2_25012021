@@ -482,7 +482,7 @@ footer{
 .footer__list{
     width: 75%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 40px;
     padding: 4rem;
 }
@@ -830,7 +830,7 @@ footer{
 
 .activities__list__detail img{
     object-fit: cover;
-    width: 40rem;
+    width: 35rem;
     border-radius: 2.5rem 2.5rem 0 0;
 }
 
